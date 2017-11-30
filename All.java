@@ -107,7 +107,7 @@ public class all {
             for (int j = 0; j < 8; j++) {
                 switch (j) {
                     case 0:
-                        chessBoard.add(new JLabel("" + (9-(i + 1)),
+                        chessBoard.add(new JLabel("" + ((i + 1)+0),
                                 SwingConstants.CENTER));
                     //orients the layout of pieces
                     default:
